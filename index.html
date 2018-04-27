@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Doggie Tinder</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet"> 
+  <link rel="Stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <img src="mapdummy.PNG" class="map-img">
+  <!-- <div class="jumbotron"> -->
+    <div class="container">
+        <!-- Pop-out Menu System (The hidden part)-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Login</a>
+            <a href="#">Events</a>
+            <a href="#">FAQ/Doggie 101</a>
+            <a href="#">Terms</a>
+          </div>
+        <!-- Pop-out Menu System -->
+        <nav>
+          <span class="side-menu" onclick="openNav()">&#9776;</span>
+        </nav>
+
+        <!-- Logo area-->
+        <div class="logo font-dekko">
+          <h1>Doggie<br>Tinder</h1>
+          <img id="paw-image" src="paw.png">
+        </div>
+      
+        <!-- Search Area -->
+        <main>
+          <p class="font-dekko center">Find your dog's perfect playmate.</p>
+          <div class="container">
+              <div class="row">
+                    <div class="col-md-6">
+                        <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="form-control input-lg" placeholder="Search" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-info btn-lg" type="button">
+                                        <i class="material-icons">search</i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </main>      
+      
+    </div>
+  <!-- </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Location</title>
+    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet"> 
+      <link rel="Stylesheet" type="text/css" href="style.css">
+      <script src="script.js"></script>
+    </head>
+<body class="font-dekko">
+  <div class="jumbotron">
+    <!-- Pop-out Menu System (The hidden part)-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Login</a>
+        <a href="#">Events</a>
+        <a href="#">FAQ/Doggie 101</a>
+        <a href="#">Terms</a>
+      </div>
+    <!-- Pop-out Menu System -->
+    <nav>
+      <span class="side-menu" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <!-- Search Area -->
+    <main>
+        <p class="font-dekko center">Find your dog's perfect playmate.</p>
+        <div class="container">
+            <div class="row">
+                  <div class="col-md-6">
+                      <div id="custom-search-input">
+                          <div class="input-group col-md-12">
+                              <input type="text" class="form-control input-lg" placeholder="Search" />
+                              <span class="input-group-btn">
+                                  <button class="btn btn-info btn-lg" type="button">
+                                      <i class="material-icons">search</i>
+                                  </button>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+          </div>
+      </main>   
+
+      <!-- <button type="button" class="btn btn-secondary map-pin3" data-container="body" data-toggle="popover" data-placement="top" data-content="Ace: Boxer Mix"></button> -->
+
+      <a href="profile.html" class="map-pin1"></a>
+      <a href="profile.html" class="map-pin2"></a>
+      <a href="profile.html" class="map-pin3"></a>
+
+    <!-- <main class="profile-page">
+      <div class="top">
+        <h1>Profile</h1>
+      </div>
+      <div class="middle">
+        <img class="profile-img" src="#">
+        <div class="profile-text">
+            <h3>Name:</h3><p> Ace</p>
+            <h3>Breed:</h3> <p> Boxer</p>
+            <h3>Available:</h3><p> 7AM - 10AM</p>
+            <h3>Owner's Name:</h3><p> Joe Jackman</p>    
+        </div>
+      </div>
+      <div class="bottom">
+        <form>
+          <p>Contact Owner:</p>
+          <textarea></textarea>
+          <input type="button" class="btn" value="Submit">
+        </form>
+      </div>
+    </main> -->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
