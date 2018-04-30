@@ -57,6 +57,12 @@ h3 {
   margin: 0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #paw-image {
   width: 30%;
   height: 30%;
@@ -89,6 +95,7 @@ h3 {
   top: 200px;
   left: 100px;
 }
+
 .map-pin3 {
   border-radius: 100%;
   background-color: purple;
@@ -140,7 +147,7 @@ form {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #a5efb6;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
